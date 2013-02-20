@@ -12,4 +12,9 @@ describe Zombie do
 		zombie.brains.should < 1
 	end
 
+	it "is hungry" do
+		zombie = Zombie.new
+		zombie.should be_hungry
+	end
+
 end
