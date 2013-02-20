@@ -17,4 +17,13 @@ describe Zombie do
 		zombie.should be_hungry
 	end
 
+	it "is dead" do
+		pending
+	end
+
+	xit "is ugly" do
+		zombie = Zombie.new
+		zombie.should be_ugly
+	end
+
 end
